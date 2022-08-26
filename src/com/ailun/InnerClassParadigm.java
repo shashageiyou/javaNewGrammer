@@ -1,10 +1,10 @@
 package com.ailun;
 
 import java.util.Comparator;
-import java.util.List;
 
 /**
  * 内部类泛型
+ *
  * @author wlf
  * @date 2022/8/19-17:23
  */

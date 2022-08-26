@@ -5,14 +5,16 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * 集合新增api
+ *
  * @author wlf
  * @date 2022/8/26-13:29
  */
-public class NewApi {
+public class NewCollectionApi {
 	public static void main(String[] args) {
-	list();
-	map();
-	set();
+		list();
+		map();
+		set();
 	}
 
 	public static void list() {
@@ -20,7 +22,9 @@ public class NewApi {
 		List<Integer> integerList = List.of(1, 2, 34);
 		System.out.println(integerList);
 		//修改会报错
-		//integerList.add(5);
+		//integerList.add(5)
+		List<Integer> integers = List.copyOf(integerList);
+		System.out.println(integerList == integers);
 	}
 
 	public static void map() {

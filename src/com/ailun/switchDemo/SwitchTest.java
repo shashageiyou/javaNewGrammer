@@ -1,6 +1,7 @@
 package com.ailun.switchDemo;
 
 /**
+ * switch 新语法
  * @author wlf
  * @date 2022/8/26-13:57
  */

@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
 /**
+ * try catch 新语法
  * @author wlf
  * @date 2022/8/19-17:32
  */
