@@ -8,7 +8,6 @@ package com.ailun.var;
 public class VarTest {
 	public static void main(String[] args) {
 		type();
-		streamVar();
 	}
 
 	public static void type() {
@@ -19,10 +18,5 @@ public class VarTest {
 		//去掉尾部空格
 		var s = c.stripTrailing();
 		System.out.printf("s=%s,len=%d \n", s,s.length());
-	}
-	public static void streamVar() {
-		//lambda 可以使用var
-		Mapper<String, Integer> mapper = (var a)->a.length();
-		System.out.println(mapper.map("ssss"));
 	}
 }
