@@ -9,7 +9,7 @@ package com.ailun.sealed;
  * @date 2022/8/26-14:23
  */
 
-public sealed class Hero permits ADCarry {
+public sealed abstract class Hero permits ADCarry {
 	//通用属性 攻击力
 	protected int AttackPower;
 

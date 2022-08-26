@@ -2,9 +2,9 @@ package com.ailun.sealed;
 
 /**
  * @author wlf
- * @date 2022/8/26-14:24
+ * @  2022/8/26-14:24
  */
-public sealed class ADCarry extends Hero permits AiXi{
+public sealed abstract class ADCarry extends Hero permits AiXi{
 
 	//攻击方式 远程
 	protected String RemoteAttack;
