@@ -7,4 +7,6 @@
 /dataSources/
 /dataSources.local.xml
 *.class
-/target/
+../out
+../.idea
+/misc.xml
